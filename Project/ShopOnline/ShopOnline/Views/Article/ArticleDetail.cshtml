@@ -14,11 +14,10 @@
             <div class="col-lg-9 text-center">
                 <div class="blog__hero__text">
                     <h2>@Model.title</h2>
-                    <ul>
-                        <li>By Deercreative</li>
+                    @*<ul>
                         <li>@Model.publicDate</li>
                         <li>8 Comments</li>
-                    </ul>
+                    </ul>*@
                 </div>
             </div>
         </div>
@@ -36,7 +35,7 @@
             </div>
             <div class="col-lg-8">
                 <div class="blog__details__content">
-                    <div class="blog__details__share">
+                    @*<div class="blog__details__share">
                         <span>share</span>
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -44,7 +43,7 @@
                             <li><a href="#" class="youtube"><i class="fa fa-youtube-play"></i></a></li>
                             <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
-                    </div>
+                    </div>*@
                     <div class="blog__details__text">
                         <p>@Html.Raw(@Model.content)</p>
                     </div>
@@ -107,7 +106,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="blog__details__comment">
+                    @*<div class="blog__details__comment">
                         <h4>Leave A Comment</h4>
                         <form action="#">
                             <div class="row">
@@ -126,7 +125,7 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
+                    </div>*@
                 </div>
             </div>
         </div>

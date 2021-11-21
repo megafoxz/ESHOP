@@ -26,6 +26,7 @@
     <WebStackScaffolding_DbContextTypeFullName>ShopOnline.Models.menfashionEntities</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
     <NameOfLastUsedPublishProfile>FTPProfile</NameOfLastUsedPublishProfile>
+    <ToolsVersionPromptShown>4.0</ToolsVersionPromptShown>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
